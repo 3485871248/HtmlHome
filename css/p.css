@@ -1,11 +1,11 @@
-.NewsContent {
+.notice-text {
     text-align: center;
     line-height: 1.5vh;
     font-size: 2.5vh;
     font-weight: lighter;
 }
 
-#Hitokoto {
+#hitokoto-text {
     color: dodgerblue;
     font-size: 2.5vh;
     font-family: 楷体, 新宋体, sans-serif;
@@ -16,21 +16,21 @@
     margin: 2vw;
 }
 
-#Icon {
+#icon-text {
     text-align: center;
     color: dodgerblue;
     font-size: 30vh;
     margin-top: -18%;
 }
 
-#Name {
+#title-text {
     color: white;
     font-size: 2.5vh;
     margin-left: 5%;
     margin-top: 0;
 }
 
-#NewsTitle {
+#notice-title {
     color: black;
     font-family: 新宋体, 宋体, sans-serif;
     font-weight: bolder;
@@ -39,7 +39,7 @@
     margin-top: 2%;
 }
 
-#time {
+#time-text {
     color: black;
     font-size: 3vh;
     margin-left: 6%;

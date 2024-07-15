@@ -4,7 +4,7 @@
     border-radius: 30px;
 }
 
-.LinkDiv {
+.link-button {
     background: dodgerblue;
     border-radius: 30px;
     width: 6vh;
@@ -15,7 +15,22 @@
     line-height: 5vh;
 }
 
-.LinkDiv:hover {
+.link-tip {
+    visibility: hidden;
+    width: 5vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: cornflowerblue;
+    text-align: center;
+    border-radius: 1vw;
+    font-size: 1vh;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -80%;
+}
+
+.link-button:hover {
     background: lightblue;
     color: black;
     transition: all 0.4s;
@@ -30,7 +45,7 @@
     border-radius: 25px;
 }
 
-#HitokotoDiv {
+#hitokoto-bg {
     display: flex;
     margin: auto;
     height: 5vh;
@@ -39,7 +54,7 @@
     align-items: center;
 }
 
-#TitleDiv {
+#content-bg {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,7 +63,7 @@
     width: 50vw;
 }
 
-#IconDiv {
+#icon-border {
     position: absolute;
     top: 50%;
     left: 5%;
@@ -59,7 +74,7 @@
     width: 15vw;
 }
 
-#NameDiv {
+#title-bg {
     background: midnightblue;
     position: absolute;
     left: 40%;
@@ -69,7 +84,7 @@
     width: 26vw;
 }
 
-#NewsDiv {
+#notice-bg {
     position: absolute;
     left: 40%;
     top: 25%;
@@ -88,31 +103,45 @@
     width: 18vw;
 }
 
-#Link1 {
+#link-left {
     margin-left: 50%;
     margin-top: -7vh;
 }
 
-#Link2 {
+#link-right {
     margin-left: 70%;
     margin-top: -6vh;
 }
 
-.LinkTip {
-    visibility: hidden;
-    width: 5vw;
-    background-color: rgba(255, 255, 255, 0.8);
-    color: cornflowerblue;
-    text-align: center;
-    border-radius: 1vw;
-    font-size: 1vh;
-    position: absolute;
-    z-index: 1;
-    bottom: 120%;
-    left: 50%;
-    margin-left: -80%;
+.link-button:hover .link-tip {
+    visibility: visible;
 }
 
-.LinkDiv:hover .LinkTip {
-    visibility: visible;
+#song-bg {
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+}
+
+#song-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+}
+
+#play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
 }
