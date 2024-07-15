@@ -12,38 +12,45 @@
 <script src="js/log.js"></script>
 
 <div id="cursor"></div>
-<div class="white" id="HitokotoDiv">
-    <p id="Hitokoto">每日一言获取中...</p>
+<div class="white" id="hitokoto-bg">
+    <p id="hitokoto-text">每日一言获取中...</p>
 </div>
 
 
-<div class="white" id="TitleDiv">
-    <div id="IconDiv">
-        <p id="Icon">𝕊</p>
+<div class="white" id="content-bg">
+    <div id="icon-border">
+        <p id="icon-text">𝕊</p>
     </div>
-    <div id="NameDiv">
-        <p id="Name">𝖘𝖍𝖚𝖞𝖊'𝖘 𝖍𝖔𝖒𝖊</p>
+    <div id="title-bg">
+        <p id="title-text">𝖘𝖍𝖚𝖞𝖊'𝖘 𝖍𝖔𝖒𝖊</p>
     </div>
-    <div id="NewsDiv">
-        <p id="NewsTitle">公告</p>
+    <div id="notice-bg">
+        <p id="notice-title">公告</p>
         <HR style="margin-top: -5%">
-        <p class="NewsContent">我们拥有最优良的售后</p>
-        <p class="NewsContent">客服在线时间:</p>
-        <p class="NewsContent">暑假期间8:00-21:00</p>
-        <p class="NewsContent">(客服也是人，看到了一定会回您的!)</p>
+        <p class="notice-text">我们拥有最优良的售后</p>
+        <p class="notice-text">客服在线时间:</p>
+        <p class="notice-text">暑假期间8:00-21:00</p>
+        <p class="notice-text">(客服也是人，看到了一定会回您的!)</p>
     </div>
 </div>
 
 <div class="white" id="dock">
-    <p id="time"></p>
-    <div class="LinkDiv" id="Link1" onclick="window.open('http://s-y.lol')">𝟙
-    <span class="LinkTip">点击打开卡网1</span>
+    <p id="time-text"></p>
+    <div class="link-button" id="link-left" onclick="window.open('http://s-y.lol')">𝟙
+    <span class="link-tip">点击打开卡网1</span>
     </div>
-    <div class="LinkDiv" id="Link2" onclick="window.open('https://buy.uyou.shop')">𝟚
-    <span class="LinkTip">点击打开卡网2</span>
+    <div class="link-button" id="link-right" onclick="window.open('https://buy.uyou.shop')">𝟚
+    <span class="link-tip">点击打开卡网2</span>
     </div>
 </div>
 
+<div class="white" id="song-bg">
+    <img id="song-img" src="https://p1.music.126.net/keapgbQPquKIASoIXPR9zA==/109951169739936819.jpg?param=130y130" alt="图片加载失败">
+    <img src="https://s3.bmp.ovh/imgs/2024/07/15/4e6fc6d1f465cff6.png"
+         onclick="playSong()" alt="按钮加载失败" class="white" id="play-button">
+</div>
+
+<script src="js/song.js"></script>
 <script src="js/cursor.js"></script>
 <script src="js/hitokoto.js"></script>
 <script src="js/time.js"></script>
