@@ -1,4 +1,4 @@
-const time = document.getElementById("time");
+const time = document.getElementById("time-text");
 
 function setTime() {
     let now = new Date();

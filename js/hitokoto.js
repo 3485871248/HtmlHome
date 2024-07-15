@@ -1,4 +1,4 @@
-const hitokoto = document.getElementById('Hitokoto')
+const hitokoto = document.getElementById('hitokoto-text')
 
 fetch('https://v1.hitokoto.cn/?encode=text&c=d')
     .then(response => response.text())
